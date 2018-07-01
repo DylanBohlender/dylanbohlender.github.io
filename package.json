@@ -1,0 +1,25 @@
+{
+  "name": "dylanbohlender.github.io",
+  "version": "1.0.0",
+  "description": "Dylan Bohlender's Portfolio Website",
+  "main": "js/index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-wait": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanBohlender/dylanbohlender.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanBohlender/dylanbohlender.github.io/issues"
+  },
+  "homepage": "https://github.com/DylanBohlender/dylanbohlender.github.io#readme"
+}
