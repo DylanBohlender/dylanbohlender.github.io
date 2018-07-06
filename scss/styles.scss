@@ -26,8 +26,9 @@
         9. Skills Styles
         10. Certifications Styles
         11. Contact Styles
-        12. Optional Section Styles
-        13. Media Queries
+        12. Game Design Portfolio Styles
+        13. Optional Section Styles
+        14. Media Queries
 */
 
 /*
@@ -871,8 +872,54 @@ footer {
 }
 
 /*
+    --------------------------------------------
+    ----- 12. Game Design Portfolio Styles -----
+    --------------------------------------------
+*/
+
+.gameportfolio {
+    padding: 50px 15px;
+
+    h2 {
+        text-align: center;
+        color: $heading;
+        position: relative;
+        font-size: 2em;
+        font-weight: 300;
+        margin: 0 0 20px 0;
+    
+        &:after {
+            position: absolute;
+            content: '';
+            top: 100%;
+            height: 1px;
+            width: 50px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background: $base-color;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 300;
+        color: $heading;
+        margin: 0 0 20px 0;
+    }
+
+    p {
+        text-align: center;
+        color: $text;
+        margin: 5px 0 5px 0;
+    }
+}
+
+
+/*
     ---------------------------------------
-    ----- 12. Optional Section Styles -----
+    ----- 13. Optional Section Styles -----
     ---------------------------------------
 */
 
@@ -920,7 +967,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 13. Media Queries -----
+    ----- 14. Media Queries -----
     -----------------------------
 */
 
