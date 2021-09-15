@@ -22,7 +22,7 @@
         6. Experience Styles
         7. Projects Styles
         8. Education Styles
-        9. Skills Styles
+        9. Technical Skills Styles
         10. Certifications Styles
         11. Contact Styles
         12. Game Design Portfolio Styles
@@ -519,22 +519,22 @@ footer {
     padding: 0 0 0 15px; }
 
 /*
-    -------------------------------
-    ------ 9. Skills Styles -------
-    -------------------------------
+    --------------------------------
+    -- 9. Technical Skills Styles --
+    --------------------------------
 */
-#skills {
+#technical-skills {
   padding: 50px 15px;
   text-align: center; }
-  #skills h2 {
+  #technical-skills h2 {
     color: #374054;
     margin-bottom: 50px; }
-  #skills ul {
+  #technical-skills ul {
     display: block;
     margin: 0 auto;
     padding: 0;
     max-width: 800px; }
-  #skills li {
+  #technical-skills li {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
